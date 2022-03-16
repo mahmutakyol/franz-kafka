@@ -1,0 +1,34 @@
+{
+  "name": "franz-kafka",
+  "version": "1.0.0",
+  "description": "kafka+nodejs+docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmutakyol/franz-kafka.git"
+  },
+  "keywords": [
+    "kafka",
+    "nodejs",
+    "docker",
+    "producer",
+    "consumer",
+    "topic"
+  ],
+  "author": "mahmutakyol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmutakyol/franz-kafka/issues"
+  },
+  "homepage": "https://github.com/mahmutakyol/franz-kafka#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "kafkajs": "^1.16.0",
+    "save": "^2.4.0",
+    "xml2js": "^0.4.23"
+  }
+}
