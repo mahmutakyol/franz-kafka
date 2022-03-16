@@ -4,6 +4,8 @@
   "description": "kafka+nodejs+docker",
   "main": "index.js",
   "scripts": {
+    "produce": "node src/producer.js",
+    "topic": "node src/topic.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
