@@ -3,6 +3,7 @@ kafka-nodejs-docker
 
 Start Kafka:
 ```bash
+$ npm i 
 $ docker-compose up 
 ```
 
